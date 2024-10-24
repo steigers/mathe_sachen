@@ -2,12 +2,6 @@ einser = ['null', 'ein', 'zwei', 'drei', 'vier', 'fünf', 'sechs', 'sieben', 'ac
 zig = ['null', 'zehn', 'zwanzig', 'dreissig', 'vierzig', 'fünfzig', 'sechzig', 'siebzig', 'achtzig', 'neunzig']
 zehn_bis_neunzehn = ['zehn', 'elf', 'zwölf', 'dreizehn', 'vierzehn', 'fünfzehn', 'sechzehn', 'siebzehn', 'achtzehn', 'neunzehn']
 
-def mit_oder_ohne_und(a, b):
-    if a == '':
-        return b
-    else:
-        return a + '-und-' + b
-
 null_bis_999 = []  # Eine Liste von null bis neun-hundert-neun-und-neunzig
 for h in range(0, 10):  # Hunderter
   for z in range(0, 10):  # Zehner
